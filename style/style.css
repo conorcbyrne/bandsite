@@ -42,7 +42,11 @@ body,
 }
 
 /*Music Button Section*/
-.music_button {
+.music_button{
+  padding: 1rem;
+}
+.music_button a{
+  font-size: 1.8rem;
   background: rgba(0, 0, 0, 0.5);
   padding: 0 2rem;
   border-top: 5px double #ffffff;
@@ -50,17 +54,19 @@ body,
   border-radius: 1rem;
   border-color: white;
   transition: all 0.4s ease;
-}
-.music_button a {
-  font-size: 1.8rem;
+  overflow: hidden;
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
-.music_button:hover {
+.music_button a:hover {
   border: 5px double #000000;
   border-radius: 0rem;
   background: rgb(255, 255, 255);
+  color: #000000;
+  transform: scale(1.9);
+}
+.music_button:hover {
   color: #000000;
   transform: scale(1.1);
 }
@@ -126,10 +132,8 @@ div {
 /*About Us Section*/
 .about_us {
   position: fixed;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  height: 35vh;
+  background: rgba(0, 0, 0, 0.85);
+  border-style: solid none solid none ;
   width: 70%;
   top: 5%;
   left: 50%;
@@ -165,6 +169,7 @@ div {
   width: 18rem; 
   height: 10rem;
   filter: drop-shadow(0 0.2rem 0.25rem rgba(255, 255, 255, 0.295));
+  overflow: hidden;
 }
 .wm_logo img{
 height: 100%;
@@ -317,17 +322,7 @@ transition: all 0.7s ease;
     top: 5%;
   }
 
-  /*Music Button Section*/
-.music_button {
-  padding: 0 2rem;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-  border-top: 4px double #ffffff;
-  border-bottom: 4px double #ffffff;
-}
-.music_button a {
-  font-size: 1.6rem;
-}
+
   /*Modal Pop Up*/
   .close_modal button {
     background-color: transparent;
@@ -337,7 +332,20 @@ transition: all 0.7s ease;
     cursor: pointer;
   }
 
+/*About Us Section*/
+.about_us {
+  width: 70%;
+}
 
+.about_us h1 {
+  text-align: center;
+  user-select: none;
+  font-size: 2rem;
+}
+.about_us p {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
 .fall_on_link {
   text-decoration: none;
   color: black;
@@ -384,17 +392,33 @@ transition: all 0.7s ease;
   div {
     font-size: 1rem;
   }
-
-  /*Music Button Section*/
-.music_button {
-  padding: 0 2rem;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-  border-top: 4px double #ffffff;
-  border-bottom: 4px double #ffffff;
+/*About Us Section*/
+.about_us {
+  width: 90%;
 }
-.music_button a {
-  font-size: 1.6rem;
+
+.about_us h1 {
+  text-align: center;
+  user-select: none;
+  font-size: 2rem;
+}
+.about_us p {
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+/*Music Button Section*/
+.music_button{
+  padding: 0.5rem;
+}
+.music_button a{
+  font-size: 1.4rem;
+}
+.music_button a:hover {
+  border: 5px double #000000;
+  border-radius: 0rem;
+  background: rgb(255, 255, 255);
+  color: #000000;
+  transform: scale(1.1);
 }
 
     /*Modal Pop Up*/
@@ -504,16 +528,30 @@ transition: all 0.7s ease;
 
 }
 
-/*Music Button Section*/
-.music_button {
-  padding: 0 2rem;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-  border-top: 4px double #ffffff;
-  border-bottom: 4px double #ffffff;
+/*About Us Section*/
+.about_us {
+  width: 100%;
+  height: 60%;
 }
-.music_button a {
-  font-size: 1.6rem;
+
+.about_us h1 {
+  text-align: center;
+  user-select: none;
+  font-size: 1.4rem;
+}
+.about_us p {
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+
+
+/*Music Button Section*/
+.music_button{
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+.music_button a{
+  font-size: 1.3rem;
 }
 
 }
