@@ -24,7 +24,7 @@ body,
 .container {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://warpedmindsmusicstor01.blob.core.windows.net/images/Warped Minds Group Photos-06.jpg");
+    url("https://warpedmindsmusicstor01.blob.core.windows.net/images/Warped Minds Group Photos-06.jpg?sp=r&st=2022-06-12T12:05:17Z&se=2023-06-12T20:05:17Z&spr=https&sv=2021-06-08&sr=c&sig=kGJV%2Bc%2BYO%2FjfBJiICzjgSwryiTEQHIE3x5mj4EP6o%2Bg%3D");
 
   background-size: cover;
   background-position: 70% 50%;
